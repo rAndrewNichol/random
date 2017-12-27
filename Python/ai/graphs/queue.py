@@ -7,6 +7,9 @@ class queue():
         self.q.append(value) 
     def __str__(self):
         return "queue({})".format(self.q)
+    def __bool__(self):
+        return self.q != []
+
 #q = queue()
 #q.enqueue(0)
 #q.enqueue(1)
