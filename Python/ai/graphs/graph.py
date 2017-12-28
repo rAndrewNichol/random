@@ -27,18 +27,21 @@ class graph:
             # this is for graphs instantiated using a cost matrix
             for i in range(size):
                 graph[i] = node([j for j in range(size) if self.data[i][j]])
-            self.max = i
+            self.min, self.max = 0, i
         else:
             # this is for graphs instantiated using a list of edges (tuples)
             for edge in self.data:
                 graph[edge[0]].add_edge(edge[1]) 
                 # to accomodate nondirectional edges
                 # graph[edge[1]].add_edge(edge[0])
-            self.max = max(graph.keys())
+            self.min, self.max = min(graph.keys()), max(graph.keys())
         return graph
     def find_shortest(self, f = 0, t = 0, method = 'bf'):
         if not t:
             t = self.max
+        if not f:
+            f = self.min
+        print ("min:{},max:{}".format(self.min,self.max))
         start, goal = self.graph[f], self.graph[t]
         if method not in ['bf','df','a*','dijkstra']:
             raise Exception('invalid method for find_shortest()') 
@@ -60,11 +63,14 @@ class graph:
                     pred[out] = current
                     queue.enqueue(out)
                 
-#g = graph([[0,1,1,0,0],[1,0,0,0,1],[1,0,0,1,0],[0,0,1,0,1],[0,1,0,1,0]])
-#gg = graph([(0,1),(0,2),(2,3),(3,4),(1,4)])
-#ggg = graph([('A','B'),('A','C'),('C','D'),('D','E'),('B','E')])
-#print(gg)
-#print(g)
-#print (g.find_shortest(0,4,'bf'))
-#print (gg.find_shortest(0,4,'bf'))
-#print (ggg.find_shortest('A','E','bf'))
+g = graph([[0,1,1,0,0],[1,0,0,0,1],[1,0,0,1,0],[0,0,1,0,1],[0,1,0,1,0]])
+gg = graph([(0,1),(0,2),(2,3),(3,4),(1,4)])
+ggg = graph([('A','B'),('A','C'),('C','D'),('D','E'),('B','E')])
+print(gg)
+print(g)
+print (g.find_shortest(0,4,'bf'))
+print (gg.find_shortest(0,4,'bf'))
+print (ggg.find_shortest('A','E','bf'))
+print (g.find_shortest())
+print (gg.find_shortest())
+print (ggg.find_shortest())
