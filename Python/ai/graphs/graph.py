@@ -34,8 +34,8 @@ class graph:
             for edge in self.data:
                 graph[edge[0]].add_edge(edge[1])
                 if edge[1] > maxi: maxi = edge[1]
-                # to accomodate nondirectional edges
-                # graph[edge[1]].add_edge(edge[0])
+                #to accomodate nondirectional edges
+                graph[edge[1]].add_edge(edge[0])
             self.min, self.max = min(graph.keys()), maxi
         return graph
     def find_shortest(self, f = 0, t = 0, method = 'bf'):
@@ -65,30 +65,25 @@ class graph:
                     queue.enqueue(out)
         if method == 'df':
             shortest = []
-    	    path, stack = [], s([start])
+    	    stack = s([(start,[start])])
             while stack:
-                current = stack.pop()
-                path.append(current)
+                current, path = stack.pop()
                 for out in [self.graph[each] for each in current.outs if self.graph[each] not in path]:
                     if out == goal:
                         if not shortest or len(path) < len(shortest):
                             shortest, path = path, [start]
                     else:
-                        stack.push(out)
+                        stack.push((out, path + [out]))
             get_labels = {value:str(key) for key, value in self.graph.items()}
             return "->".join([get_labels[each] for each in (shortest+[goal])])
                
-g = graph([[0,1,1,0,0],[1,0,0,0,1],[1,0,0,1,0],[0,0,1,0,1],[0,1,0,1,0]])
-gg = graph([(0,1),(0,2),(2,3),(3,4),(1,4)])
-ggg = graph([('A','B'),('A','C'),('C','D'),('D','E'),('B','E')])
-#print (g.find_shortest(0,4,'bf'))
-#print (gg.find_shortest(0,4,'bf'))
-#print (ggg.find_shortest('A','E','bf'))
-##print (g.find_shortest())
-#print (gg.find_shortest())
-#print (ggg.find_shortest())
+#g = graph([[0,1,1,0,0],[1,0,0,0,1],[1,0,0,1,0],[0,0,1,0,1],[0,1,0,1,0]])
+#gg = graph([(0,1),(0,2),(2,3),(3,4),(1,4)])
+#ggg = graph([('A','B'),('A','G'),('F','B'),('E','G'),('B','E'),('F','C'),('C','H'),('D','F'),('A','D')])
+#print(ggg.find_shortest('A','H','df'))
+#print(ggg.find_shortest('A','H','bf'))
 
-print (g.find_shortest(0,4,'df'))
-print (gg.find_shortest(0,4,'df'))
-print (ggg.find_shortest('A','E','df'))
+
+
+
 
