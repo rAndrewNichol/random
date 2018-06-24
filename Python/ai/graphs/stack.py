@@ -7,8 +7,12 @@ class stack:
         return self.stack.pop(len(self.stack)-1)
     def __str__(self):
         return "stack({})".format(self.stack)
-    def __bool__(self):
+    #py2
+    def __nonzero__(self):
         return self.stack != []
+    #py3
+    # def __bool__(self):
+    #     return self.stack != []
 
 #s = stack()
 #s.push(0)
