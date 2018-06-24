@@ -1,0 +1,353 @@
+                     blockchain isPartial
+date                                     
+2018-01-18 21:36:00          93     False
+2018-01-18 21:44:00         100     False
+2018-01-18 21:52:00          96     False
+2018-01-18 22:00:00          83     False
+2018-01-18 22:08:00          95     False
+2018-01-18 22:16:00          94     False
+2018-01-18 22:24:00          92     False
+2018-01-18 22:32:00          89     False
+2018-01-18 22:40:00          87     False
+2018-01-18 22:48:00          94     False
+2018-01-18 22:56:00          95     False
+2018-01-18 23:04:00          83     False
+2018-01-18 23:12:00          91     False
+2018-01-18 23:20:00          96     False
+2018-01-18 23:28:00          85     False
+2018-01-18 23:36:00          91     False
+2018-01-18 23:44:00          82     False
+2018-01-18 23:52:00          83     False
+2018-01-19 00:00:00          83     False
+2018-01-19 00:08:00          81     False
+2018-01-19 00:16:00          74     False
+2018-01-19 00:24:00          72     False
+2018-01-19 00:32:00          77     False
+2018-01-19 00:40:00          81     False
+2018-01-19 00:48:00          69     False
+2018-01-19 00:56:00          71     False
+2018-01-19 01:04:00          76     False
+2018-01-19 01:12:00          69     False
+2018-01-19 01:20:00          76     False
+2018-01-19 01:28:00          81     False
+...                         ...       ...
+2018-01-19 17:36:00          74     False
+2018-01-19 17:44:00          79     False
+2018-01-19 17:52:00          69     False
+2018-01-19 18:00:00          70     False
+2018-01-19 18:08:00          67     False
+2018-01-19 18:16:00          70     False
+2018-01-19 18:24:00          74     False
+2018-01-19 18:32:00          75     False
+2018-01-19 18:40:00          71     False
+2018-01-19 18:48:00          71     False
+2018-01-19 18:56:00          73     False
+2018-01-19 19:04:00          72     False
+2018-01-19 19:12:00          72     False
+2018-01-19 19:20:00          71     False
+2018-01-19 19:28:00          77     False
+2018-01-19 19:36:00          78     False
+2018-01-19 19:44:00          73     False
+2018-01-19 19:52:00          79     False
+2018-01-19 20:00:00          76     False
+2018-01-19 20:08:00          73     False
+2018-01-19 20:16:00          71     False
+2018-01-19 20:24:00          75     False
+2018-01-19 20:32:00          79     False
+2018-01-19 20:40:00          70     False
+2018-01-19 20:48:00          70     False
+2018-01-19 20:56:00          70     False
+2018-01-19 21:04:00          68     False
+2018-01-19 21:12:00          75     False
+2018-01-19 21:20:00          69     False
+2018-01-19 21:28:00          83      True
+
+[180 rows x 2 columns]
+()
+        date                                         exploreUrl  \
+0   20180118  /trends/explore?q=Aly+Raisman&date=now+7-d&geo=US   
+1   20180118       /trends/explore?q=Turpin&date=now+7-d&geo=US   
+2   20180118  /trends/explore?q=release+the+memo&date=now+7-...   
+3   20180118  /trends/explore?q=Chicago+West&date=now+7-d&ge...   
+4   20180118  /trends/explore?q=carl+higbie&date=now+7-d&geo=US   
+5   20180118  /trends/explore?q=Saoirse+Ronan&date=now+7-d&g...   
+6   20180118  /trends/explore?q=Dragon+Ball+Super&date=now+7...   
+7   20180118  /trends/explore?q=Chrissy+Teigen&date=now+7-d&...   
+8   20180118  /trends/explore?q=March+for+Life&date=now+7-d&...   
+9   20180118  /trends/explore?q=SUPER+TROOPERS+2&date=now+7-...   
+10  20180118  /trends/explore?q=Government+shutdown&date=now...   
+11  20180118    /trends/explore?q=12+Strong&date=now+7-d&geo=US   
+12  20180118  /trends/explore?q=Den+of+Thieves&date=now+7-d&...   
+13  20180118  /trends/explore?q=Kodak+Black&date=now+7-d&geo=US   
+14  20180118   /trends/explore?q=Amazon+HQ2&date=now+7-d&geo=US   
+15  20180118      /trends/explore?q=Rihanna&date=now+7-d&geo=US   
+16  20180118  /trends/explore?q=grey's+anatomy&date=now+7-d&...   
+17  20180118  /trends/explore?q=nba+all+star+2018&date=now+7...   
+18  20180118      /trends/explore?q=brothel&date=now+7-d&geo=US   
+19  20180118  /trends/explore?q=hailee+steinfeld&date=now+7-...   
+20  20180118  /trends/explore?q=real+madrid&date=now+7-d&geo=US   
+21  20180118   /trends/explore?q=Josh+Allen&date=now+7-d&geo=US   
+22  20180118      /trends/explore?q=scandal&date=now+7-d&geo=US   
+23  20180118  /trends/explore?q=Joseph+Haynes&date=now+7-d&g...   
+24  20180118  /trends/explore?q=Sharon+Stone&date=now+7-d&ge...   
+25  20180118  /trends/explore?q=markelle+fultz&date=now+7-d&...   
+26  20180118  /trends/explore?q=Prince+William&date=now+7-d&...   
+27  20180118    /trends/explore?q=Kris+Dunn&date=now+7-d&geo=US   
+28  20180118  /trends/explore?q=mary+and+the+witch's+flower&...   
+29  20180118   /trends/explore?q=blue+alert&date=now+7-d&geo=US   
+
+   formattedTraffic hotnessColor  hotnessLevel  \
+0          100,000+      #e68033           3.0   
+1          100,000+      #e68033           3.0   
+2          100,000+      #e68033           3.0   
+3          100,000+      #e68033           3.0   
+4           50,000+      #f0a049           2.0   
+5           50,000+      #f0a049           2.0   
+6           50,000+      #f0a049           2.0   
+7           50,000+      #f0a049           2.0   
+8           20,000+      #f0a049           2.0   
+9           20,000+      #f0a049           2.0   
+10         500,000+      #db601e           4.0   
+11         200,000+      #e68033           3.0   
+12         200,000+      #e68033           3.0   
+13         200,000+      #e68033           3.0   
+14         100,000+      #e68033           3.0   
+15         100,000+      #e68033           3.0   
+16         100,000+      #e68033           3.0   
+17         100,000+      #e68033           3.0   
+18         100,000+      #e68033           3.0   
+19          50,000+      #f0a049           2.0   
+20          50,000+      #f0a049           2.0   
+21          50,000+      #f0a049           2.0   
+22          50,000+      #f0a049           2.0   
+23          50,000+      #f0a049           2.0   
+24          50,000+      #f0a049           2.0   
+25          50,000+      #f0a049           2.0   
+26          50,000+      #f0a049           2.0   
+27          50,000+      #f0a049           2.0   
+28          50,000+      #f0a049           2.0   
+29          20,000+      #f0a049           2.0   
+
+                                           imgLinkUrl         imgSource  \
+0   https://deadspin.com/aly-raisman-is-ready-to-b...          Deadspin   
+1   http://www.cnn.com/2018/01/19/us/california-to...               CNN   
+2   http://www.businessinsider.com/release-the-mem...  Business Insider   
+3   https://www.usatoday.com/story/life/2018/01/19...         USA TODAY   
+4    http://www.bbc.com/news/world-us-canada-42751084          BBC News   
+5   https://www.huffingtonpost.com/entry/saoirse-r...          HuffPost   
+6   https://kotaku.com/dragon-ball-super-is-ending...            Kotaku   
+7   http://people.com/babies/pregnant-chrissy-teig...        PEOPLE.com   
+8   https://www.npr.org/2018/01/19/578928911/trump...               NPR   
+9     https://nerdist.com/super-troopers-2-trailer-2/           Nerdist   
+10  http://www.cnn.com/2018/01/19/politics/trump-s...               CNN   
+11  https://nypost.com/2018/01/19/veterans-deserve...     New York Post   
+12  http://variety.com/2018/film/news/box-office-d...           Variety   
+13  http://www.sun-sentinel.com/local/broward/fl-r...      Sun Sentinel   
+14  http://money.cnn.com/2018/01/19/technology/ama...          CNNMoney   
+15  https://www.maxim.com/sports/joel-embiid-rihan...             Maxim   
+16  http://www.vulture.com/2018/01/greys-anatomy-r...           Vulture   
+17  http://bleacherreport.com/articles/2754896-nba...   Bleacher Report   
+18  http://www.tmz.com/2018/01/18/kim-kardashian-s...           TMZ.com   
+19  https://www.usmagazine.com/celebrity-news/news...         Us Weekly   
+20       http://www.bbc.co.uk/sport/football/42682974         BBC Sport   
+21  https://www.sbnation.com/college-football/2018...         SB Nation   
+22  http://www.vulture.com/2018/01/scandal-recap-s...           Vulture   
+23  http://www.aljazeera.com/news/2018/01/ohio-tee...     Aljazeera.com   
+24  http://time.com/5101902/sharon-stone-metoo-mos...              TIME   
+25  http://www.bostonherald.com/sports/celtics/201...     Boston Herald   
+26  http://abcnews.go.com/Entertainment/wireStory/...          ABC News   
+27  http://www.espn.com/nba/story/_/id/22145766/ch...              ESPN   
+28  https://nerdist.com/mary-and-the-witchs-flower...           Nerdist   
+29  http://bismarcktribune.com/news/local/crime-an...  Bismarck Tribune   
+
+                                               imgUrl  \
+0   //t0.gstatic.com/images?q=tbn:ANd9GcTIxGozRgIM...   
+1   //t2.gstatic.com/images?q=tbn:ANd9GcQqtJf_BX6v...   
+2   //t0.gstatic.com/images?q=tbn:ANd9GcQv1TNq2X39...   
+3   //t0.gstatic.com/images?q=tbn:ANd9GcSNUKBgVnfF...   
+4   //t2.gstatic.com/images?q=tbn:ANd9GcQQ1IRQ250-...   
+5   //t0.gstatic.com/images?q=tbn:ANd9GcRFCMw99MkD...   
+6   //t3.gstatic.com/images?q=tbn:ANd9GcSh8IThL0fh...   
+7   //t2.gstatic.com/images?q=tbn:ANd9GcSBxkRtOU6g...   
+8   //t2.gstatic.com/images?q=tbn:ANd9GcRxEx2t3mTV...   
+9   //t2.gstatic.com/images?q=tbn:ANd9GcS7D3_kWOJq...   
+10  //t2.gstatic.com/images?q=tbn:ANd9GcTTv7UBjoTn...   
+11  //t1.gstatic.com/images?q=tbn:ANd9GcQCvx9D9Z85...   
+12  //t3.gstatic.com/images?q=tbn:ANd9GcSQ8uJgsQeN...   
+13  //t2.gstatic.com/images?q=tbn:ANd9GcSsZSbKn--3...   
+14  //t3.gstatic.com/images?q=tbn:ANd9GcQtb7c8Skvh...   
+15  //t0.gstatic.com/images?q=tbn:ANd9GcTg44gKRUPy...   
+16  //t0.gstatic.com/images?q=tbn:ANd9GcSMssDgR780...   
+17  //t2.gstatic.com/images?q=tbn:ANd9GcTcuvHSUhLb...   
+18  //t3.gstatic.com/images?q=tbn:ANd9GcTBgOpSn9tw...   
+19  //t3.gstatic.com/images?q=tbn:ANd9GcSCntOljsms...   
+20  //t2.gstatic.com/images?q=tbn:ANd9GcSR2Js0BMPR...   
+21  //t3.gstatic.com/images?q=tbn:ANd9GcQ1KzX1ucGX...   
+22  //t3.gstatic.com/images?q=tbn:ANd9GcQJ7WvM9ou4...   
+23  //t0.gstatic.com/images?q=tbn:ANd9GcROQ7qP9p8N...   
+24  //t0.gstatic.com/images?q=tbn:ANd9GcRN12TO2r9w...   
+25  //t2.gstatic.com/images?q=tbn:ANd9GcQUyD5975jv...   
+26  //t2.gstatic.com/images?q=tbn:ANd9GcS-SfuRO9Kc...   
+27  //t3.gstatic.com/images?q=tbn:ANd9GcTa0E69MbPY...   
+28  //t1.gstatic.com/images?q=tbn:ANd9GcT2EdfDRkp6...   
+29  //t1.gstatic.com/images?q=tbn:ANd9GcQBIdPyrKEE...   
+
+                                     newsArticlesList  \
+0   [{u'snippet': u'“This may not be what you thou...   
+1   [{u'snippet': u'&quot;We are not charging tort...   
+2   [{u'snippet': u'Republican lawmakers are pushi...   
+3   [{u'snippet': u'Kardashian and <b>West</b> hir...   
+4   [{u'snippet': u'A government official appointe...   
+5   [{u'snippet': u'The 23-year-old, who recently ...   
+6   [{u'snippet': u'According to Japan&#39;s Manta...   
+7   [{u'snippet': u'The star – who is expecting he...   
+8   [{u'snippet': u'President Trump and Vice Presi...   
+9   [{u'snippet': u'How can a group of inappropria...   
+10  [{u'snippet': u'The problem with that &quot;so...   
+11  [{u'snippet': u'A fascinating story from the d...   
+12  [{u'snippet': u'STXfilms will open the R-rated...   
+13  [{u'snippet': u'Rapper <b>Kodak Black</b> is b...   
+14  [{u'snippet': u'In a letter to <b>Amazon</b> C...   
+15  [{u'snippet': u'After Thirsting for Years, Joe...   
+16  [{u'snippet': u'Grey&#39;s fam, it&#39;s been ...   
+17  [{u'snippet': u'Golden State Warriors point gu...   
+18  [{u'snippet': u'Kim Kardashian went straight f...   
+19  [{u'snippet': u'<b>Hailee Steinfeld</b> attend...   
+20  [{u'snippet': u'However, Leganes, 13th in La L...   
+21  [{u'snippet': u'Longtime ESPN NFL Draft analys...   
+22  [{u'snippet': u'One of two possible conclusion...   
+23  [{u'snippet': u'A teenage boy has been shot an...   
+24  [{u'snippet': u'(To wit: In the show&#39;s fir...   
+25  [{u'snippet': u'But whereas Jayson Tatum is fi...   
+26  [{u'snippet': u'The buzz cut was captured by p...   
+27  [{u'snippet': u'Point guard <b>Kris Dunn</b> w...   
+28  [{u'snippet': u'And his first film, <b>Mary an...   
+29  [{u'snippet': u'Police continued to search ear...   
+
+                                  relatedSearchesList  safe  \
+0       [{u'query': u'Jordyn Wieber', u'safe': True}]   1.0   
+1   [{u'query': u'Turpin case', u'safe': True}, {u...   1.0   
+2           [{u'query': u'FISA memo', u'safe': True}]   1.0   
+3                                                  []   1.0   
+4                                                  []   1.0   
+5                                                  []   1.0   
+6                                                  []   1.0   
+7                                                  []   1.0   
+8                                                  []   1.0   
+9                                                  []   1.0   
+10  [{u'query': u'Government Shutdown 2018', u'saf...   1.0   
+11                                                 []   1.0   
+12                                                 []   1.0   
+13                                                 []   1.0   
+14  [{u'query': u'Amazon headquarters', u'safe': T...   1.0   
+15        [{u'query': u'Joel Embiid', u'safe': True}]   1.0   
+16                                                 []   1.0   
+17                                                 []   1.0   
+18                                                 []   1.0   
+19                                                 []   1.0   
+20                                                 []   1.0   
+21  [{u'query': u'Mel Kiper Mock Draft', u'safe': ...   1.0   
+22                                                 []   1.0   
+23                                                 []   1.0   
+24                                                 []   1.0   
+25                                                 []   1.0   
+26                                                 []   1.0   
+27                                                 []   1.0   
+28                                                 []   1.0   
+29                                                 []   1.0   
+
+                                             shareUrl     startTime  \
+0   https://www.google.com/trends/hottrends?stt=Al...  1.516385e+09   
+1   https://www.google.com/trends/hottrends?stt=Tu...  1.516352e+09   
+2   https://www.google.com/trends/hottrends?stt=Re...  1.516374e+09   
+3   https://www.google.com/trends/hottrends?stt=Ch...  1.516388e+09   
+4   https://www.google.com/trends/hottrends?stt=Ca...  1.516363e+09   
+5   https://www.google.com/trends/hottrends?stt=Sa...  1.516349e+09   
+6   https://www.google.com/trends/hottrends?stt=Dr...  1.516374e+09   
+7   https://www.google.com/trends/hottrends?stt=Ch...  1.516381e+09   
+8   https://www.google.com/trends/hottrends?stt=Ma...  1.516392e+09   
+9   https://www.google.com/trends/hottrends?stt=SU...  1.516392e+09   
+10  https://www.google.com/trends/hottrends?stt=Go...  1.516291e+09   
+11  https://www.google.com/trends/hottrends?stt=12...  1.516306e+09   
+12  https://www.google.com/trends/hottrends?stt=De...  1.516302e+09   
+13  https://www.google.com/trends/hottrends?stt=Ko...  1.516334e+09   
+14  https://www.google.com/trends/hottrends?stt=Am...  1.516291e+09   
+15  https://www.google.com/trends/hottrends?stt=Ri...  1.516334e+09   
+16  https://www.google.com/trends/hottrends?stt=Gr...  1.516327e+09   
+17  https://www.google.com/trends/hottrends?stt=Nb...  1.516324e+09   
+18  https://www.google.com/trends/hottrends?stt=br...  1.516324e+09   
+19  https://www.google.com/trends/hottrends?stt=Ha...  1.516331e+09   
+20  https://www.google.com/trends/hottrends?stt=Re...  1.516334e+09   
+21  https://www.google.com/trends/hottrends?stt=Jo...  1.516327e+09   
+22  https://www.google.com/trends/hottrends?stt=Sc...  1.516331e+09   
+23  https://www.google.com/trends/hottrends?stt=Jo...  1.516334e+09   
+24  https://www.google.com/trends/hottrends?stt=Sh...  1.516331e+09   
+25  https://www.google.com/trends/hottrends?stt=Ma...  1.516324e+09   
+26  https://www.google.com/trends/hottrends?stt=Pr...  1.516334e+09   
+27  https://www.google.com/trends/hottrends?stt=Kr...  1.516302e+09   
+28  https://www.google.com/trends/hottrends?stt=Ma...  1.516327e+09   
+29  https://www.google.com/trends/hottrends?stt=Bl...  1.516306e+09   
+
+                          title  \
+0                   Aly Raisman   
+1                        Turpin   
+2              Release the memo   
+3                  Chicago West   
+4                   Carl Higbie   
+5                 Saoirse Ronan   
+6             Dragon Ball Super   
+7                Chrissy Teigen   
+8                March for Life   
+9              SUPER TROOPERS 2   
+10          Government Shutdown   
+11                    12 Strong   
+12               Den of Thieves   
+13                  Kodak Black   
+14                   Amazon HQ2   
+15                      Rihanna   
+16               Grey's Anatomy   
+17            Nba All Star 2018   
+18                      brothel   
+19             Hailee Steinfeld   
+20                  Real Madrid   
+21                   Josh Allen   
+22                      Scandal   
+23                Joseph Haynes   
+24                 Sharon Stone   
+25               Markelle Fultz   
+26               Prince William   
+27                    Kris Dunn   
+28  Mary And The Witch's Flower   
+29                   Blue Alert   
+
+                                         titleLinkUrl  trafficBucketLowerBound  
+0               //www.google.com/search?q=Aly+Raisman                 100000.0  
+1                    //www.google.com/search?q=Turpin                 100000.0  
+2          //www.google.com/search?q=Release+the+memo                 100000.0  
+3              //www.google.com/search?q=Chicago+West                 100000.0  
+4               //www.google.com/search?q=Carl+Higbie                  50000.0  
+5             //www.google.com/search?q=Saoirse+Ronan                  50000.0  
+6         //www.google.com/search?q=Dragon+Ball+Super                  50000.0  
+7            //www.google.com/search?q=Chrissy+Teigen                  50000.0  
+8            //www.google.com/search?q=March+for+Life                  20000.0  
+9          //www.google.com/search?q=SUPER+TROOPERS+2                  20000.0  
+10      //www.google.com/search?q=Government+Shutdown                 500000.0  
+11                //www.google.com/search?q=12+Strong                 200000.0  
+12           //www.google.com/search?q=Den+of+Thieves                 200000.0  
+13              //www.google.com/search?q=Kodak+Black                 200000.0  
+14               //www.google.com/search?q=Amazon+HQ2                 100000.0  
+15                  //www.google.com/search?q=Rihanna                 100000.0  
+16           //www.google.com/search?q=Grey's+Anatomy                 100000.0  
+17        //www.google.com/search?q=Nba+All+Star+2018                 100000.0  
+18                  //www.google.com/search?q=brothel                 100000.0  
+19         //www.google.com/search?q=Hailee+Steinfeld                  50000.0  
+20              //www.google.com/search?q=Real+Madrid                  50000.0  
+21               //www.google.com/search?q=Josh+Allen                  50000.0  
+22                  //www.google.com/search?q=Scandal                  50000.0  
+23            //www.google.com/search?q=Joseph+Haynes                  50000.0  
+24             //www.google.com/search?q=Sharon+Stone                  50000.0  
+25           //www.google.com/search?q=Markelle+Fultz                  50000.0  
+26           //www.google.com/search?q=Prince+William                  50000.0  
+27                //www.google.com/search?q=Kris+Dunn                  50000.0  
+28  //www.google.com/search?q=Mary+And+The+Witch's...                  50000.0  
+29               //www.google.com/search?q=Blue+Alert                  20000.0  

@@ -64,13 +64,18 @@ class graph:
                     queue.enqueue(out)
                 
 g = graph([[0,1,1,0,0],[1,0,0,0,1],[1,0,0,1,0],[0,0,1,0,1],[0,1,0,1,0]])
-gg = graph([(0,1),(0,2),(2,3),(3,4),(1,4)])
-ggg = graph([('A','B'),('A','C'),('C','D'),('D','E'),('B','E')])
-print(gg)
 print(g)
-print (g.find_shortest(0,4,'bf'))
-print (gg.find_shortest(0,4,'bf'))
-print (ggg.find_shortest('A','E','bf'))
-print (g.find_shortest())
-print (gg.find_shortest())
-print (ggg.find_shortest())
+
+print(g.find_shortest(0,4,'bf'))
+
+
+# gg = graph([(0,1),(0,2),(2,3),(3,4),(1,4)])
+# ggg = graph([('A','B'),('A','C'),('C','D'),('D','E'),('B','E')])
+# print(gg)
+# print(g)
+# print (g.find_shortest(0,4,'bf'))
+# print (gg.find_shortest(0,4,'bf'))
+# print (ggg.find_shortest('A','E','bf'))
+# print (g.find_shortest())
+# print (gg.find_shortest())
+# print (ggg.find_shortest())
