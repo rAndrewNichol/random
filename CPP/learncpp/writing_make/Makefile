@@ -3,9 +3,10 @@
 # Variables:
 CXX := g++
 CXXFLAGS := -Wall -g
+IFLAG := -I ./headers/
 H := ./headers/
 O := ./objects/
-C := ./programs/
+P := ./programs/
 #
 
 # Targets:
@@ -13,9 +14,9 @@ C := ./programs/
 run: $(O)main.o $(O)add.o
 	$(CXX) $(CXXFLAGS) -o run $(O)main.o $(O)add.o
 
-$(O)main.o: $(C)main.cpp $(H)add.h
-	$(CXX) $(CXXFLAGS) -c main.cpp -o $(O)main.o
+$(O)main.o: $(P)main.cpp $(H)add.h
+	$(CXX) $(CXXFLAGS) $(IFLAG) -c $(P)main.cpp -o $(O)main.o 
 
-$(O)add.o: $(C)add.cpp $(H)add.h
-	$(CXX) $(CXXFLAGS) -c add.cpp -o $(O)add.o
+$(O)add.o: $(P)add.cpp 
+	$(CXX) $(CXXFLAGS) $(IFLAG) -c $(P)add.cpp -o $(O)add.o
 # 

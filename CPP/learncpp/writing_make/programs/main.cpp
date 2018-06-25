@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "headers/add.h"
+#include "add.h"
 
 
 int add(int x, int y);
